@@ -1,10 +1,8 @@
 # hi, i'm varshitha 👋
 
-cs student at scaler (bits pilani). i build full-stack apps, obsess over ux, and somehow always end up starting new projects at midnight.
+cs student at scaler school of Technology (bits pilani). i build full-stack apps, obsess over ux, and somehow always end up starting new projects at midnight.
 
-most of what i build comes from a real frustration — burnout tracking because i was burning out, decision tools because i was paralysed making one, task monitoring because my team kept dropping the ball. the code is a side effect of trying to fix something.
-
-currently learning swift + swiftui. applied to the apple developer academy.
+most of what i build comes from a real frustration : burnout tracking because i was burning out, decision tools because i was paralysed making one, task monitoring because i kept missing the deadlines. the code is a side effect of trying to fix something.
 
 ---
 
@@ -39,23 +37,13 @@ productivity analytics — focus intensity, energy levels, context switching. an
 `node.js` `express` `nestjs` `fastapi` `websockets` `bullmq`
 `postgresql` `mongodb` `redis` `prisma`
 `turborepo` `docker` `git` `vercel` `linux`
-`swift + swiftui` *(learning)*
 
 ---
-
 ## outside of code
 
-mentored 20+ first-years at sst through onboarding — debug sessions, study groups, resource packs. started a dsa cohort (15+ people, still going). ran workshops on react and ux design for 25+ people each. on the leadership development committee, helped run events for 200+ students.
+mentored 400+ first-years at sst through onboarding : debug sessions, study groups, resource packs. started a dsa cohort (15+ people, still going).on the leadership development committee, helped run events for 200+ students.
 
 ---
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dobbydobap&show_icons=true&hide_border=true&hide_title=true&count_private=true&theme=default" height="130" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dobbydobap&layout=compact&hide_border=true&theme=default" height="130" />
-</p>
-
----
-
 <p align="center">
   <a href="https://linkedin.com/in/varshitha-kolupuri">linkedin</a> · <a href="mailto:varshithakolupuri100@gmail.com">email</a>
 </p>
