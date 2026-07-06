@@ -72,9 +72,11 @@ an internet speed test that doesn't try to sell you a VPN. download, upload, pin
 
 ### 🌸 evidence
 
-- **global top 6** — apple developer academy, italy
-- **top 100** — meta pytorch × scaler openenv hackathon
-- **open-source PRs under review** — [microsoft/vscode](https://github.com/microsoft/vscode/pull/324369) · [Textualize/textual](https://github.com/Textualize/textual/pull/6631) · [fedora-infra/bodhi](https://github.com/fedora-infra/bodhi/pull/6121)
+<ul>
+  <li><b>global top 6</b> — apple developer academy, italy</li>
+  <li><b>top 100</b> — meta pytorch × scaler openenv hackathon</li>
+  <li><b>open-source PRs under review</b> — <a href="https://github.com/microsoft/vscode/pull/324369">microsoft/vscode</a> · <a href="https://github.com/Textualize/textual/pull/6631">Textualize/textual</a> · <a href="https://github.com/fedora-infra/bodhi/pull/6121">fedora-infra/bodhi</a></li>
+</ul>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffafcc,100:fb6f92&height=2" width="100%" alt="" />
 
