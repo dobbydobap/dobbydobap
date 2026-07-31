@@ -20,6 +20,23 @@ also: cats. 🐈‍⬛
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffafcc,100:fb6f92&height=2" width="100%" alt="" />
 
+### 🌸 field work
+
+other people's codebases, other people's hauntings. **7 PRs merged across 6 upstream projects**, three of them cncf.
+
+<ul>
+  <li><b>apicurio registry</b> — <a href="https://github.com/Apicurio/apicurio-registry/pull/8684">#8684</a> merged. then found <a href="https://github.com/Apicurio/apicurio-registry/issues/8926">#8926</a>: MCP tool annotations were being validated against the wrong schema entirely, so not one of the four hints anyone wrote was ever checked. fix in review — <a href="https://github.com/Apicurio/apicurio-registry/pull/9055">#9055</a>.</li>
+  <li><b>opentelemetry</b> <sub>go compile-time instrumentation</sub> — <a href="https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/856">#856</a> merged. then found <a href="https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/886">#886</a>: struct rules cheerfully matched things that were not structs, and inside a grouped <code>type</code> block a field could land on a struct nobody named. fix in review — <a href="https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/887">#887</a>.</li>
+  <li><b>kubeflow pipelines</b> — <a href="https://github.com/kubeflow/pipelines/pull/13780">#13780</a> merged: the python sdk was quietly adding <code>--trusted-host</code> to every pip call. opt-in now.</li>
+  <li><b>microsoft/vscode</b> — <a href="https://github.com/microsoft/vscode/pull/324571">#324571</a> and <a href="https://github.com/microsoft/vscode/pull/324734">#324734</a> merged in v1.129.0: a rerun-last-task regression, and a pinned tab that refused to let go when dragged.</li>
+  <li><b>nodejs/node</b> — <a href="https://github.com/nodejs/node/pull/64365">#64365</a> &nbsp;·&nbsp; <b>fedora-infra/bodhi</b> — <a href="https://github.com/fedora-infra/bodhi/pull/6121">#6121</a></li>
+  <li><sub>in review: kserve <a href="https://github.com/kserve/kserve/pull/5908">#5908</a> · <a href="https://github.com/kserve/kserve/pull/5909">#5909</a> &nbsp;·&nbsp; textualize/textual <a href="https://github.com/Textualize/textual/pull/6631">#6631</a> · <a href="https://github.com/Textualize/textual/pull/6630">#6630</a></sub></li>
+</ul>
+
+the half i like best: find it myself, report it, then fix it.
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffafcc,100:fb6f92&height=2" width="100%" alt="" />
+
 ### 🌸 case files
 
 #### [RankForge ↗](https://rank-forge-web.vercel.app/)
@@ -75,14 +92,13 @@ an internet speed test that doesn't try to sell you a VPN. download, upload, pin
 <ul>
   <li><b>global top 6</b> — apple developer academy, italy</li>
   <li><b>top 100</b> — meta pytorch × scaler openenv hackathon</li>
-  <li><b>open-source PRs merged</b> — <a href="https://github.com/microsoft/vscode/pull/324369">microsoft/vscode</a> · <a href="https://github.com/Textualize/textual/pull/6631">Textualize/textual</a> · <a href="https://github.com/fedora-infra/bodhi/pull/6121">fedora-infra/bodhi</a></li>
 </ul>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffafcc,100:fb6f92&height=2" width="100%" alt="" />
 
 ### 🌸 equipment
 
-`typescript` `python` `java` `c++` `nestjs` `fastapi` `express` `react` `next.js` `websockets` `postgresql` `redis` `mongodb` `sqlite` `pytorch` `grpo` `gemini · claude · openai` `docker` `gcp` `cloudflare` `vercel` `linux`
+`typescript` `python` `go` `java` `c++` `nestjs` `fastapi` `quarkus` `express` `react` `next.js` `websockets` `postgresql` `redis` `mongodb` `sqlite` `pytorch` `grpo` `gemini · claude · openai` `docker` `gcp` `cloudflare` `vercel` `linux`
 
 <pre>
  /\_/\
