@@ -6,7 +6,7 @@ cs @ scaler school of technology + bits pilani · bengaluru
 
 <a href="https://linkedin.com/in/varshitha-kolupuri"><img src="https://img.shields.io/badge/linkedin-fb6f92?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>&nbsp;
 <a href="https://rank-forge-web.vercel.app/"><img src="https://img.shields.io/badge/rankforge_%E2%80%94_live-ff8fab?style=for-the-badge&logo=vercel&logoColor=white" alt="rankforge" /></a>&nbsp;
-<a href="https://speedcheck-1mi.pages.dev/"><img src="https://img.shields.io/badge/speed_test_%E2%80%94_live-ffafcc?style=for-the-badge&logo=cloudflare&logoColor=white" alt="speed test" /></a>
+
 
 </div>
 
@@ -22,18 +22,29 @@ also: cats. 🐈‍⬛
 
 ### 🌸 field work
 
-other people's codebases, other people's hauntings. **10 PRs merged across 7 upstream projects**, two of them cncf graduated — plus node.js core.
+other people's codebases, other people's hauntings. **14 PRs merged across 8 upstream projects**, two of them cncf graduated — plus node.js core.
 
 <ul>
-  <li><b>apicurio registry</b> — <a href="https://github.com/Apicurio/apicurio-registry/pull/8684">#8684</a> merged. then found <a href="https://github.com/Apicurio/apicurio-registry/issues/8926">#8926</a>: MCP tool annotations were being validated against the wrong schema entirely, so not one of the four hints anyone wrote was ever checked. <b>fix merged</b> — <a href="https://github.com/Apicurio/apicurio-registry/pull/9055">#9055</a>.</li>
+  <li><b>apicurio registry</b> — <a href="https://github.com/Apicurio/apicurio-registry/pull/8684">#8684</a> merged. then found <a href="https://github.com/Apicurio/apicurio-registry/issues/8926">#8926</a>: MCP tool annotations were being validated against the wrong schema entirely, so not one of the four hints anyone wrote was ever checked. <b>fix merged</b> — <a href="https://github.com/Apicurio/apicurio-registry/pull/9055">#9055</a>. Also <a href="https://github.com/Apicurio/apicurio-registry/pull/9850">#9850</a>: usage-telemetry dedup and config-cache loads made atomic.</li>
   <li><b>opentelemetry</b> <sub>go compile-time instrumentation</sub> — <a href="https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/856">#856</a> merged. then found <a href="https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/886">#886</a>: struct rules cheerfully matched things that were not structs, and inside a grouped <code>type</code> block a field could land on a struct nobody named. <b>fix merged</b> — <a href="https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/887">#887</a>.</li>
-  <li><b>kubeflow pipelines</b> — <a href="https://github.com/kubeflow/pipelines/pull/13780">#13780</a> merged: the python sdk was quietly adding <code>--trusted-host</code> to every pip call. opt-in now.</li>
-  <li><b>microsoft/vscode</b> — <a href="https://github.com/microsoft/vscode/pull/324571">#324571</a> and <a href="https://github.com/microsoft/vscode/pull/324734">#324734</a> merged in v1.129.0: a rerun-last-task regression, and a pinned tab that refused to let go when dragged.</li>
-  <li><b>nodejs/node</b> — <a href="https://github.com/nodejs/node/pull/64365">#64365</a> &nbsp;·&nbsp; <b>fedora-infra/bodhi</b> — <a href="https://github.com/fedora-infra/bodhi/pull/6121">#6121</a> &nbsp;·&nbsp; <b>nansen-cli</b> — <a href="https://github.com/nansen-ai/nansen-cli/pull/465">#465</a></li>
-  <li><sub>in review: vscode <a href="https://github.com/microsoft/vscode/pull/326451">#326451</a> · <a href="https://github.com/microsoft/vscode/pull/326447">#326447</a> · <a href="https://github.com/microsoft/vscode/pull/325654">#325654</a> · <a href="https://github.com/microsoft/vscode/pull/324682">#324682</a> · <a href="https://github.com/microsoft/vscode/pull/324369">#324369</a> &nbsp;·&nbsp; kserve <a href="https://github.com/kserve/kserve/pull/5909">#5909</a> &nbsp;·&nbsp; textualize/textual <a href="https://github.com/Textualize/textual/pull/6631">#6631</a> · <a href="https://github.com/Textualize/textual/pull/6630">#6630</a></sub></li>
+  <li><b>kubeflow pipelines</b> — <a href="https://github.com/kubeflow/pipelines/pull/13780">#13780</a> merged: the python sdk was quietly adding <code>--trusted-host</code> to every pip call. opt-in now. Also <a href="https://github.com/kubeflow/pipelines/pull/14169">#14169</a>: a concurrency hole that let you retry an archived run.</li>
+  <li><b>microsoft/vscode</b> — <a href="https://github.com/microsoft/vscode/pull/324571">#324571</a> and <a href="https://github.com/microsoft/vscode/pull/324734">#324734</a> merged in v1.129.0: a rerun-last-task regression, and a pinned tab that refused to let go when dragged. <a href="https://github.com/microsoft/vscode/pull/324369">#324369</a> merged too — configure-snippets now lists the active editor language first.</li>
+  <li><b>nodejs/node</b> — <a href="https://github.com/nodejs/node/pull/64365">#64365</a> &nbsp;·&nbsp; <b>fedora-infra/bodhi</b> — <a href="https://github.com/fedora-infra/bodhi/pull/6121">#6121</a> &nbsp;·&nbsp; <b>nansen-cli</b> — <a href="https://github.com/nansen-ai/nansen-cli/pull/465">#465</a> &nbsp;·&nbsp; <b>fedora-infra/anitya</b> — <a href="https://github.com/fedora-infra/anitya/pull/2105">#2105</a></li>
+  <li><sub>in review: vscode <a href="https://github.com/microsoft/vscode/pull/326451">#326451</a> · <a href="https://github.com/microsoft/vscode/pull/326447">#326447</a> · <a href="https://github.com/microsoft/vscode/pull/325654">#325654</a> · <a href="https://github.com/microsoft/vscode/pull/324682">#324682</a> &nbsp;·&nbsp; nodejs/node <a href="https://github.com/nodejs/node/pull/65695">#65695</a> · <a href="https://github.com/nodejs/node/pull/65981">#65981</a> &nbsp;·&nbsp; textualize/textual <a href="https://github.com/Textualize/textual/pull/6631">#6631</a> · <a href="https://github.com/Textualize/textual/pull/6630">#6630</a> &nbsp;·&nbsp; datahub <a href="https://github.com/datahub-project/datahub-skills/pull/38">#38</a></sub></li>
 </ul>
 
 the half i like best: find it myself, report it, then fix it.
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffafcc,100:fb6f92&height=2" width="100%" alt="" />
+
+### 🌸 leaderboards
+
+41 public notebooks on [kaggle](https://www.kaggle.com/varshithakolupuri). the modelling is there — a coatnet + 2.5d convnext MIL ensemble on **rsna knee abnormality detection**, dinov2 features, multi-reader blends — but the notebooks people actually upvote are the ones where i go looking for what is wrong.
+
+<ul>
+  <li><b>rsna knee: real scores of every public notebook</b> — reported scores vs what they actually reproduce. my most-upvoted thing by a distance.</li>
+  <li><b>playground s6e10</b> — three notebooks: is the test set different from train, which features actually matter, and how much of the leaderboard is just noise.</li>
+</ul>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffafcc,100:fb6f92&height=2" width="100%" alt="" />
 
@@ -79,7 +90,7 @@ so you can watch the ghost work.
 
 <sub>`python` · `playwright` · `fastapi` · `docker` &nbsp;—&nbsp; [source](https://github.com/dobbydobap/AutomationAgent)</sub>
 
-#### [SPEED/TEST ↗](https://speedcheck-1mi.pages.dev/)
+#### [SPEED/TEST ↗](https://github.com/dobbydobap/speed.com)
 
 an internet speed test that doesn't try to sell you a VPN. download, upload, ping, jitter, bufferbloat — measured against cloudflare's edge with zero backend, rendered on a hand-rolled SVG speedometer.
 
