@@ -39,11 +39,12 @@ the half i like best: find it myself, report it, then fix it.
 
 ### 🌸 leaderboards
 
-41 public notebooks on [kaggle](https://www.kaggle.com/varshithakolupuri). the modelling is there — a coatnet + 2.5d convnext MIL ensemble on **rsna knee abnormality detection**, dinov2 features, multi-reader blends — but the notebooks people actually upvote are the ones where i go looking for what is wrong.
+[kaggle](https://www.kaggle.com/varshithakolupuri): the modelling is there — a coatnet + 2.5d convnext MIL ensemble on **rsna knee abnormality detection**, dinov2 features, multi-reader blends — but the four notebooks i have actually made public are the ones where i went looking for what was wrong.
 
 <ul>
   <li><b>rsna knee: real scores of every public notebook</b> — reported scores vs what they actually reproduce. my most-upvoted thing by a distance.</li>
   <li><b>playground s6e10</b> — three notebooks: is the test set different from train, which features actually matter, and how much of the leaderboard is just noise.</li>
+  <li><b>kaggriculture front-run agents</b> — a public dataset, for the agents that trade ahead of the market.</li>
 </ul>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffafcc,100:fb6f92&height=2" width="100%" alt="" />
